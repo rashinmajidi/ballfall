@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="40dp"
+            android:gravity="center"
+            android:text="Game Over"
+            android:textColor="#c7c49c"
+            android:textSize="25sp" />
+    <TextView
+            android:id="@+id/score"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#c7c49c"
+            android:textSize="25sp" />
+    <Button
+            android:id="@+id/retry"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#c7c49c"
+            android:radius="30dp"
+            android:text="Retry"
+            />
+
+</LinearLayout>
